@@ -4,6 +4,7 @@
 300+ API endpoints fully (login, register, follow, like, comment, repost, DM, groups, hot search, video, super topics)<br>
  authentication (parameters, tokens, session management)<br><br>
 
+S-Value (Rust native request signing), WeiboPin (Rust device PIN), I-Value (JNI device hash), MFP (RSA encrypted device fingerprint), DeviceID (JNI native generation), SecurityPsd (Rust + RSA password encryption)
 
 <h3> Encryption  </h3>
 
