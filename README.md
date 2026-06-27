@@ -5,15 +5,15 @@
  authentication (parameters, tokens, session management)<br><br>
 
 
-<h2> Encryption  </h2>
+<h3> Encryption  </h3>
 
 RSA/ECB/PKCS1Padding (MFP, 117-byte chunk split), RSA public key callback (password), Rust black-box hashing (S-Value, Pin), Base64 encoding, MD5 (legacy)
 
-<h2> login methods </h2>
+<h3> login methods </h3>
 
 email/password, phone/SMS, QR code scan, QQ OAuth, alt token, GSID refresh, guest mode
 
-<h2> Anti-bot  </h2>
+<h3> Anti-bot  </h3>
 
 uicode randomization, S-Value seed caching, HttpDNS, TLS hostname bypass, MFP consistency checks, captcha
 
